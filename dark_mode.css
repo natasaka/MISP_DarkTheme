@@ -1,0 +1,70 @@
+/* MISP Darkmode by NKA */
+
+/* Font - this can be removed or edited by a font of your choice*/
+@font-face {
+ font-family: "Roboto";
+ src: url(/webfonts/Roboto-Regular.ttf) format("truetype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+
+}
+
+html, body {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+html { background-color: #272B30; }   
+body { background-color: #272B30; color: #afafaf; }  
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: rgba(255, 255, 255, .05) !important;  
+}
+
+.table-hover > tbody > tr:hover > * {
+  background-color: rgba(255, 255, 255, .075) !important; }
+
+.table, .table * {
+  --bs-table-border-color: rgba(0, 0, 0, .6); 
+  border-color: var(--bs-table-border-color);
+}
+.beta-events-table{
+   background-color: #272B30 !important;
+}
+.beta-events-table th {
+   color: #afafaf;
+}
+.beta-header-left h2{
+   color: #afafaf;
+}
+.beta-active-filters {
+   background-color: #646464;
+}
+.nav-list > li > a, .nav-list .nav-header{
+   text-shadow: none !important;
+}
+
+.beta-events-table a{
+   color: #0af !important;
+}
+
+.beta-search-row{
+   background-color: #717171;
+}
+.beta-search-label{
+  color: #000;
+}
+.sparkline{
+   stroke: #fff;
+}
+.black{
+   color: #b4b4b4 !important;
+}
+
+.correlation-container{
+    background-color: #272B30 !important;
+}
+
+#galaxies_div {
+    background-color: #272B30 !important;
+}
