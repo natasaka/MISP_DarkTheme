@@ -68,3 +68,46 @@ body { background-color: #272B30; color: #afafaf; }
 #galaxies_div {
     background-color: #272B30 !important;
 }
+form .error-message{
+   background-color: #b94a48;
+   color: white;
+}
+
+label{
+   color: #272B30;
+}
+
+.apply_css_arrow{
+   color: #272B30;
+}
+
+a{
+   color: #00c1cc;
+}
+
+.pagination ul > .active > a, .pagination ul > .active > span{
+   color: #333333;
+}
+.pagination ul > li > a, .pagination ul > li > span{
+   background-color:#272B30;
+}
+
+.galaxyQuickView h3{
+ color: #00c1cc;
+}
+
+.galaxyQuickView ul{
+ color: #00c1cc;
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus{
+   background-color: #00c1cc;
+   color: #333333;
+}
+
+.beta-events-table .short a{
+   color: #00c1cc;
+}
+.beta-events-table .short a.dblclickActionElement{
+   color: #00c1cc;
+}
