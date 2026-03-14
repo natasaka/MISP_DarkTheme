@@ -127,3 +127,11 @@ a{
    color: #333;
 }
 
+.alert-info{
+   color: #e3e3e3;
+   background-color:#4a8bab;
+}
+
+.alert{
+   text-shadow: none !important;
+}
